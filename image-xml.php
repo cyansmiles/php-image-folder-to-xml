@@ -1,14 +1,16 @@
 <?php
 
-// Created by Nathan @ IBC 
+// Created by Nathan Sharfi
 // <!doctype xml>
 
 // create document (XML)
 $XML = new DomDocument("1.0", "UTF-8");
 
-// global Varibiles
-$folder_url = "http://site28.buildersonline.info/plusgallery/";
-$folder_path = "../exteriors/";
+// global Varibiles (Update Folder Name (or pass in URL)
+// $folder_url = $_GET['$folder_url'];
+// $folder_url = $_GET['$folder_path'];
+$folder_url = "http://website.com/images/folder-name/";
+$folder_path = "../images/folder-name/";
 
 // create a XML Node and store it in a variable
 $rss = $XML -> createElement("rss"); 
