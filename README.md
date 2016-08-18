@@ -11,7 +11,7 @@ FYI, one problem I had to solve was I am using PHP 5.2.1 (on an older server) an
 
 Also, FYI, I set this up to work on the same server as the PHP code so I used PHP to get the location the domain automatically. You dont need to put it (in case you do a lot of sites).
 
-This is easy to use, just update these files. This is what tells the code what folder to look in. I played around with putting this as the index.php file in the folder instead updating the code, but that means more explaining. In this case, I felt using URLs is better becasue I can get the location in a data varible via JQuery (which will reference this file). That is the plan at least.
+This is easy to use, just update or send these two values ($folder_url and $folder_path). This is what tells the code what folder to look in. I played around with putting this as the index.php file in the folder instead updating the code, but that means more explaining. In this case, I felt using URLs is better becasue I can get the location in a data varible via JQuery (which will reference this file). That is the plan at least.
 
 ###Anyways, here is varibles to update (if doing manually).
 
