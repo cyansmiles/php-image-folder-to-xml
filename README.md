@@ -7,7 +7,9 @@ Because Google Picasa is no longer available to share image folders (and get abl
 
 This is nothing amazing, but so far it seems to work well. Anyways, I created this for an image gallery (currently I am using PlusGallery) to pull all the images (and info) for any folder. This is still a work in progress, but this part is working fine. I can see it may have many other uses.
 
-FYI, one problem I had to overcome was that I am using PHP 5.2.1 (old server) and it will not work with SimpleXML Functions so I used the DomDocument. Also, FYI, I set this up to work on the same server as the PHP code so I used PHP to get the location the domain automatically. You dont need to put it (in case you do a lot of sites).
+FYI, one problem I had to solve was I am using PHP 5.2.1 (on an older server) and it will not work with SimpleXML (PHP) Functions so I used found a way to use DomDocument functions (PHP) instead. Most people would have done this with SimpleXML. I just did not have it available. 
+
+Also, FYI, I set this up to work on the same server as the PHP code so I used PHP to get the location the domain automatically. You dont need to put it (in case you do a lot of sites).
 
 This is easy to use, just update these files. This is what tells the code what folder to look in. I played around with putting this as the index.php file in the folder instead updating the code, but that means more explaining. In this case, I felt using URLs is better becasue I can get the location in a data varible via JQuery (which will reference this file). That is the plan at least.
 
