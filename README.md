@@ -3,7 +3,7 @@
 #php-image-folder-to-xml
 ###This uses PHP to create XML code of images in any folder.
 
-Because Google Picasa is no longer available to share image folders (and get ablum IDs) and Google Plus makes you use tokens and API, I went back to hosting images on my own server. I did not want to use Flikr or anything else yet. It was a lot of work to "manually" create photo galleries and I needed a new option so I went back to hosting the images in a folder on my server and I created this images to pull info automatically using RSS/XML feeds.
+Because Google Picasa is no longer available to share image folders (and get ablum IDs) and Google Plus makes you use tokens and API, I went back to hosting images on my own server. I did not want to use Flikr or anything else yet. It was a lot of work to "manually" create photo galleries and I needed a new option so I went back to hosting the images in a folder on my server and I created this PHP to pull image and image info automatically using RSS/XML feeds.
 
 This is nothing amazing, but so far it seems to work well. Anyways, I created this for an image gallery (currently I am using PlusGallery) to pull all the images (and info) for any folder. This is still a work in progress, but this part is working fine. I can see it may have many other uses.
 
