@@ -17,7 +17,7 @@ $folder_path = "../images/folder-name/";
 You can also set them with using parameters from the URL
 
 $folder_url = $_GET['$folder_url'];
-$folder_url = $_GET['$folder_path'];
+$folder_path = $_GET['$folder_path'];
 
 Anyways, I am still rewriting code for plusgallery to use my RSS feed. I noticed they had already started the code but never completed it. I needed a way to get my images on my server. They just put the JS/Jquery code and nothing else.
 
