@@ -6,6 +6,7 @@ FYI, I am using PHP 5.2.1 (old server) and it will not work with SimpleXML Funct
 This is easy to use, just update these files.
 
 $folder_url = "/images/folder-name/";
+
 $folder_path = "../images/folder-name/";
 
 You can also set them with using parameters from the URL
