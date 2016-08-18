@@ -20,14 +20,14 @@ function url() {
 
 // Absolute location of folder with images
 if ( $_GET['$folder_url'] == NULL ) {
-	$folder_url = url() . "/plusgallery/gallery/";				// <<<<<<<<<<<< MAUALLY SET (IF NEEDED) 
+	$folder_url = url() . "/images/gallery/";		// <<<<<<<<<<<< MAUALLY SET (IF NEEDED) 
 } else {
 	$folder_url = url() . $_GET['$folder_url'];
 }
 
 // Relative Path of location of folder with images (from this file)
 if ( $_GET['$folder_path'] == NULL ) {
-	$folder_path = "../gallery/";													// <<<<<<<<<<<< MAUALLY SET (IF NEEDED)
+	$folder_path = "../gallery/";				// <<<<<<<<<<<< MAUALLY SET (IF NEEDED)
 } else {
 	$folder_path = $_GET['$folder_url'];
 }
