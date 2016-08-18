@@ -56,17 +56,14 @@ Here is all the info that is passed with teh current code. It is easy to update 
       </channel>
     </rss>
 
-Anyways, I am still rewriting code for PlusGallery to use my RSS feed. I noticed they had already started the code but never completed it. I needed a way to get my images on my server. They just put the JS/Jquery code and nothing else.
-
-You can learn more about PlusGallery here. I am not sharing any of their code on my GitHub since I did not write it.
-
+Anyways, I am (was) rewriting code for PlusGallery to use my RSS feed. I did not end up going that route (see update below)
 www.plusgallery.net
 
 Nathan Sharfi
 
 --------------------
 
-##Extra stuff that I was experimenting with.
+##Extra stuff that I WAS experimenting with.
 
 ###Here is a different version of Gallery code example.
     <div id="plusgallery" data-type="local" data-image-path="/includes/image-xml.php?folder_url=/images/gallery/folder-name/&folder_path=../images/gallery/folder-name/"></div>
