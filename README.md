@@ -27,6 +27,9 @@ This is easy to use, just update or send these two values ($folder_url and $fold
 ###Here is a string example (I am still working on this part).
     <div id="plusgallery" data-type="local" data-image-path="/includes/image-xml.php?folder_url=/images/gallery/folder-name/&folder_path=../images/gallery/folder-name/"></div>
 
+###Alternate Version (I am still working on this part).
+    <div id="plusgallery" data-type="local" data-image-path="/includes/image-xml.php" folder-url="/images/gallery/folder-name/" folder-path="../images/gallery/folder-name/"></div>
+
 Note: In this case, I put this PHP file in the root called "/includes/".
 
 Anyways, I am still rewriting code for PlusGallery to use my RSS feed. I noticed they had already started the code but never completed it. I needed a way to get my images on my server. They just put the JS/Jquery code and nothing else.
