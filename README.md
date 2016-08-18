@@ -19,7 +19,7 @@ This is easy to use, just update or send these two values ($folder_url and $fold
 - $folder_url = $_GET['$folder_url'];
 - $folder_path = $_GET['$folder_path'];
 
-###FYI - In my case, I am giong to put the php file in the "plusgallery" folder and just pass the locations of the image folders.
+###FYI - In my case, I put the PHP file in the "plusgallery" folder and I am just pass the locations of the image folders for each gallery.
     <div id="plusgallery" data-type="local" data-image-path="/images/gallery/folder-name/"></div>
     
 Keep in mind, in this case, I (probably) don't need to pass the relative path to the PHP file since I already know where it is (it in the plugin folder). I still have to figure all this out.
