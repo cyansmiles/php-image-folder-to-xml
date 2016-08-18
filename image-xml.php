@@ -6,11 +6,31 @@
 // create document (XML)
 $XML = new DomDocument("1.0", "UTF-8");
 
-// global Varibiles (Update Folder Name (or pass in URL)
-// $folder_url = $_GET['$folder_url'];
-// $folder_url = $_GET['$folder_path'];
-$folder_url = "http://website.com/images/folder-name/";
-$folder_path = "../images/folder-name/";
+// Global Function 
+function url() {
+	if(isset($_SERVER['HTTPS'])) {
+		$protocol = ($_SERVER['HTTPS'] && $_SERVER['HTTPS'] != "off") ? "https" : "http";
+	} else {
+		$protocol = 'http';
+	}
+	return $protocol . "://" . $_SERVER['HTTP_HOST'];
+}
+
+// Global Varibiles (MUST SET THESE EITHER WITH URL OR MANUALLY!!!)
+
+// Absolute location of folder with images
+if ( $_GET['$folder_url'] == NULL ) {
+	$folder_url = url() . "/plusgallery/gallery/";				// <<<<<<<<<<<< MAUALLY SET (IF NEEDED) 
+} else {
+	$folder_url = url() . $_GET['$folder_url'];
+}
+
+// Relative Path of location of folder with images (from this file)
+if ( $_GET['$folder_path'] == NULL ) {
+	$folder_path = "../gallery/";													// <<<<<<<<<<<< MAUALLY SET (IF NEEDED)
+} else {
+	$folder_path = $_GET['$folder_url'];
+}
 
 // create a XML Node and store it in a variable
 $rss = $XML -> createElement("rss"); 
