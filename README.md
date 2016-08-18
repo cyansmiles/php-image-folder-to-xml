@@ -25,7 +25,7 @@ This is easy to use, just update or send these two values ($folder_url and $fold
 - $folder_path = "../images/gallery/folder-name/";
 
 ###Here is a string example (I am still working on this part).
-<div id="plusgallery" data-type="local" data-image-path="/includes/image-xml.php?folder_url=/images/gallery/folder-name/&folder_path=../images/gallery/folder-name/"></div>
+'<div id="plusgallery" data-type="local" data-image-path="/includes/image-xml.php?folder_url=/images/gallery/folder-name/&folder_path=../images/gallery/folder-name/"></div>
 
 Note: In this case, I put this PHP file in the root called "/includes/".
 
