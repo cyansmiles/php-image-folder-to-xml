@@ -41,10 +41,10 @@ Nathan Sharfi
 
 ##Extra stuff that I was experimenting with.
 
-###Here is a different version of string example.
+###Here is a different version of Gallery code example.
     <div id="plusgallery" data-type="local" data-image-path="/includes/image-xml.php?folder_url=/images/gallery/folder-name/&folder_path=../images/gallery/folder-name/"></div>
 
-###Alternate Version of example.
+###Alternate Version of example same example.
     <div id="plusgallery" data-type="local" data-image-path="/includes/image-xml.php" folder-url="/images/gallery/folder-name/" folder-path="../images/gallery/folder-name/"></div>
 
 Note: In both of these cases, I put this PHP file in the root called "/includes/" so remember that folder-path is relative to the PHP file and folder-url is the absolute path to the images.
