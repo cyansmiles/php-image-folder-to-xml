@@ -35,15 +35,15 @@ Here is all the info that is passed with teh current code. It is easy to update 
 
     <?xml version="1.0" encoding="UTF-8"?>
     <rss version="2.0">
-      <title>Folder: http://www.website.com/images/gallery/exteriors/</title>
+      <title>Folder: http://www.website.com/images/gallery/folder-name/</title>
       <description>List of images in folder.</description>
       <channel>
         <item>
           <title>image.jpg</title>
-          <description>&lt;img src="http://www.website.com/images/gallery/exteriors/image.jpg" title="image.jpg" style="max-width: 300px;"&gt;</description>
+          <description>&lt;img src="http://www.website.com/images/gallery/folder-name/image.jpg" title="image.jpg" style="max-width: 300px;"&gt;</description>
           <image>
-            <url>http://www.website.com/images/gallery/exteriors/image.jpg</url>
-            <link>http://www.website.com/images/gallery/exteriors/image.jpg</link>
+            <url>http://www.website.com/images/gallery/folder-name/image.jpg</url>
+            <link>http://www.website.com/images/gallery/folder-name/image.jpg</link>
             <width>600</width>
             <height>450</height>
             <type>JPEG</type>
@@ -51,6 +51,21 @@ Here is all the info that is passed with teh current code. It is easy to update 
             <size>33</size>
             <units>kB</units>
             <count>1</count>
+          </image>
+        </item>
+        <item>
+          <title>image2.jpg</title>
+          <description>&lt;img src="http://www.website.com/images/gallery/folder-name/image2.jpg" title="image2.jpg" style="max-width: 300px;"&gt;</description>
+          <image>
+            <url>http://www.website.com/images/gallery/folder-name/image2.jpg</url>
+            <link>http://www.website.com/images/gallery/folder-name/image2.jpg</link>
+            <width>600</width>
+            <height>450</height>
+            <type>JPEG</type>
+            <attr>width="600" height="450"</attr>
+            <size>40</size>
+            <units>kB</units>
+            <count>2</count>
           </image>
         </item>
       </channel>
