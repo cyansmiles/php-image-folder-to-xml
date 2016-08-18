@@ -39,7 +39,7 @@ Nathan Sharfi
 
 --------------------
 
-Extra stuff that I was experimenting with.
+##Extra stuff that I was experimenting with.
 
 ###Here is a different version of string example.
     <div id="plusgallery" data-type="local" data-image-path="/includes/image-xml.php?folder_url=/images/gallery/folder-name/&folder_path=../images/gallery/folder-name/"></div>
