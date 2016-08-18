@@ -9,12 +9,16 @@ This is nothing amazing, but so far it seems to work well. Anyways, I created th
 
 FYI, one problem I had to overcome was that I am using PHP 5.2.1 (old server) and it will not work with SimpleXML Functions so I used the DomDocument. Also, FYI, I set this up to work on the same server as the PHP code so I used PHP to get the location the domain automatically. You dont need to put it (in case you do a lot of sites).
 
-This is easy to use, just update these files.
+This is easy to use, just update these files. This is what tells the code what folder to look in. I played around with putting this as the index.php file in the folder instead updating the code, but that means more explaining. In this case, I felt using URLs is better becasue I can get the location in a data varible via JQuery (which will reference this file). That is the plan at least.
+
+Anyways, here is varibles to update (if doing manually).
 
 $folder_url = "/images/folder-name/";
 $folder_path = "../images/folder-name/";
 
-You can also set them with using parameters from the URL
+You can also set them with using parameters from the URL (BETTER).
+
+image-xml.php?folder_url=/images/folder-name/&folder_path=../images/folder-name/
 
 $folder_url = $_GET['$folder_url'];
 $folder_path = $_GET['$folder_path'];
