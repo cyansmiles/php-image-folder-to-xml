@@ -1,7 +1,9 @@
 <?php
 
-// Created by Nathan Sharfi
-// <!doctype xml>
+// CREATED BY: Nathan Sharfi
+// PROFILE: https://github.com/cyansmiles
+// LICENSE: https://github.com/cyansmiles/php-image-folder-to-xml/blob/master/LICENSE
+// OUTPUTS: <!doctype xml>
 
 // create document (XML)
 $XML = new DomDocument("1.0", "UTF-8");
