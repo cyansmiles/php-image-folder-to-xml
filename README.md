@@ -19,21 +19,15 @@ This is easy to use, just update or send these two values ($folder_url and $fold
 - $folder_url = $_GET['$folder_url'];
 - $folder_path = $_GET['$folder_path'];
 
+###FYI - In my case, I am giong to put the php file in the "plusgallery" folder and just pass the locations of the image folders.
+    <div id="plusgallery" data-type="local" data-image-path="/images/gallery/folder-name/"></div>
+    
+Keep in mind, in this case, I (probably) don't need to pass the relative path to the PHP file since I already know where it is (it in the plugin folder). I still have to figure all this out.
+
 ###Anyways, here is varibles to update (Alternate, if doing manually and only need one feed).
 
 - $folder_url = "/images/gallery/folder-name/";
 - $folder_path = "../images/gallery/folder-name/";
-
-###Here is a string example (I am still working on this part).
-    <div id="plusgallery" data-type="local" data-image-path="/includes/image-xml.php?folder_url=/images/gallery/folder-name/&folder_path=../images/gallery/folder-name/"></div>
-
-###Alternate Version (I am still working on this part).
-    <div id="plusgallery" data-type="local" data-image-path="/includes/image-xml.php" folder-url="/images/gallery/folder-name/" folder-path="../images/gallery/folder-name/"></div>
-
-Note: In this case, I put this PHP file in the root called "/includes/".
-
-###FYI - I just realized, I could also put this php file in the "plusgallery" folder and just pass the locations of the image folders. Anyways, more to come (it just depends what you are trying to achive).
-    <div id="plusgallery" data-type="local" data-image-path="/images/gallery/folder-name/"></div>
 
 Anyways, I am still rewriting code for PlusGallery to use my RSS feed. I noticed they had already started the code but never completed it. I needed a way to get my images on my server. They just put the JS/Jquery code and nothing else.
 
@@ -42,3 +36,15 @@ You can learn more about PlusGallery here. I am not sharing any of their code on
 www.plusgallery.net
 
 Nathan Sharfi
+
+--------------------
+
+Extra stuff that I was experimenting with.
+
+###Here is a different version of string example.
+    <div id="plusgallery" data-type="local" data-image-path="/includes/image-xml.php?folder_url=/images/gallery/folder-name/&folder_path=../images/gallery/folder-name/"></div>
+
+###Alternate Version of example.
+    <div id="plusgallery" data-type="local" data-image-path="/includes/image-xml.php" folder-url="/images/gallery/folder-name/" folder-path="../images/gallery/folder-name/"></div>
+
+Note: In both of these cases, I put this PHP file in the root called "/includes/".
