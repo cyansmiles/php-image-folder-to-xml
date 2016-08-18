@@ -30,6 +30,32 @@ Keep in mind, in this case, I (probably) don't need to pass the relative path to
 - $folder_url = "/images/gallery/folder-name/";
 - $folder_path = "../images/gallery/folder-name/";
 
+Here is all the info that is passed with teh current code. It is easy to update if you want to play with more or need other info passed. There is a way to embed comments into photos. You can look into that later if you want. I did mess around with it little but did not post it.
+
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <rss version="2.0">
+      <title>Folder: http://www.website.com/images/gallery/exteriors/</title>
+      <description>List of images in folder.</description>
+      <channel>
+        <item>
+          <title>image.jpg</title>
+          <description>&lt;img src="http://www.website.com/images/gallery/exteriors/image.jpg" title="image.jpg" style="max-width: 300px;"&gt;</description>
+          <image>
+            <url>http://www.website.com/images/gallery/exteriors/image.jpg</url>
+            <link>http://www.website.com/images/gallery/exteriors/image.jpg</link>
+            <width>600</width>
+            <height>450</height>
+            <type>JPEG</type>
+            <attr>width="600" height="450"</attr>
+            <size>33</size>
+            <units>kB</units>
+            <count>1</count>
+          </image>
+        </item>
+      </channel>
+    </rss>
+
 Anyways, I am still rewriting code for PlusGallery to use my RSS feed. I noticed they had already started the code but never completed it. I needed a way to get my images on my server. They just put the JS/Jquery code and nothing else.
 
 You can learn more about PlusGallery here. I am not sharing any of their code on my GitHub since I did not write it.
@@ -74,30 +100,4 @@ Anyways, I will post the solution on another GitHub project when completed.
 This is still useful for other projects. So it was not wasted and I knew that when I was creating it. It just is not the best solution for this case.
 
 I still love XML RSS feeds. They are good for SEO and sharing info with other services. So this still has use for other projects.
-
-Here is all the info that is passed with teh current code. It is easy to update if you want to play with more or need other info passed. There is a way to embed comments into photos. You can look into that later if you want. I did mess around with it little but did not post it.
-
-
-    <?xml version="1.0" encoding="UTF-8"?>
-    <rss version="2.0">
-      <title>Folder: http://www.website.com/images/gallery/exteriors/</title>
-      <description>List of images in folder.</description>
-      <channel>
-        <item>
-          <title>image.jpg</title>
-          <description>&lt;img src="http://www.website.com/images/gallery/exteriors/image.jpg" title="image.jpg" style="max-width: 300px;"&gt;</description>
-          <image>
-            <url>http://www.website.com/images/gallery/exteriors/image.jpg</url>
-            <link>http://www.website.com/images/gallery/exteriors/image.jpg</link>
-            <width>600</width>
-            <height>450</height>
-            <type>JPEG</type>
-            <attr>width="600" height="450"</attr>
-            <size>33</size>
-            <units>kB</units>
-            <count>1</count>
-          </image>
-        </item>
-      </channel>
-    </rss>
 
