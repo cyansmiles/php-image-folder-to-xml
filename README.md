@@ -32,6 +32,6 @@ Note: In this case, I put this PHP file in the root called "/includes/".
 Anyways, I am still rewriting code for PlusGallery to use my RSS feed. I noticed they had already started the code but never completed it. I needed a way to get my images on my server. They just put the JS/Jquery code and nothing else.
 
 You can learn more about PlusGallery here. 
-http://www.plusgallery.net/
+www.plusgallery.net
 
 Nathan Sharfi
