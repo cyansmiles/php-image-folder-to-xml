@@ -85,7 +85,7 @@ The idea of creating a RSS feed of the folder and THEN trying to use that feed t
 
 My main goal is to just be able to drag and drop folders and images into my gallery folder on my website and then have the website page self create the code the photo gallery. I dont like to spend a lot of time updating galleries for clients. I needed something similar. I also create a lot of website and other people work on them and I wanted some thing simple to pass on. 
 
-I used to use the Google Picasa to host the images so clients could do this themself. However, now that the rules have changed, that will nto work anymore (easy). I also have used some Facebook plugins, however, the fact that the tokens expire so fast, is really frustrating. So this is the new solution.
+I used to use the Google Picasa to host the images so clients could do this themself. However, now that the rules have changed, that will not work anymore (easy). I also have used some Facebook plugins, however, the fact that the tokens expire so fast, is really frustrating. So this is the new solution.
 
 Anyways, I will post the solution on another GitHub project when completed.
 
