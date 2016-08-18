@@ -49,5 +49,5 @@ Nathan Sharfi
     <div id="plusgallery" data-type="local" data-image-path="/includes/image-xml.php" folder-url="/images/gallery/folder-name/" folder-path="../images/gallery/folder-name/"></div>
 
 Notes:
-- In both of these cases, I put this PHP file in the root called "/includes/",
+- In both of these cases, I put this PHP file in the root called "/includes/".
 - Remember $folder_url (folder-url) is the absolute path to the image folder and $folder_path (folder-path) is relative to the PHP file.
