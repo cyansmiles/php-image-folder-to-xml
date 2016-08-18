@@ -81,7 +81,7 @@ Notes:
 
 After fidding around with the plusgallery code, I decided to use what I did and create a php file that will create code for the page for each folder using an include or a class. I am still working on the code. 
 
-The idea of creating a RSS feed of the folder and THEN trying to use that feed to work with the plus gallery was not a good use of my time. I had to find a sipiler solution. There are tons of great lightboxes out there and I was making this too coplicated. Especailly since I dont need all the featuers that plusgalley offers with other websites (like Flickr and Instagram). Keep in mind, the creator of plusgallery has not updated the software in a while and it is not working as well as it used to.
+The idea of creating a RSS feed of the folder and THEN trying to use that feed to work with the plus gallery was not a good use of my time. I had to find a SIMPLIER solution. There are tons of great lightboxes out there and I was making this too coplicated. Especailly since I dont need all the featuers that plusgalley offers with other websites (like Flickr and Instagram). Keep in mind, the creator of plusgallery has not updated the software in a while and it is not working as well as it used to.
 
 My main goal is to just be able to drag and drop folders and images into my gallery folder on my website and then have the website page self create the code the photo gallery. I dont like to spend a lot of time updating galleries for clients. I needed something similar. I also create a lot of website and other people work on them and I wanted some thing simple to pass on. 
 
