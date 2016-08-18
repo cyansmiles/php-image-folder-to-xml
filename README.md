@@ -18,7 +18,7 @@ This is easy to use, just update or send these two values ($folder_url and $fold
 - image-xml.php?folder_url=/images/gallery/folder-name/&folder_path=../images/gallery/folder-name/
 - $folder_url = $_GET['$folder_url'];
 - $folder_path = $_GET['$folder_path'];
-- Remember $folder_url  is the absolute path to the image folder and $folder_path is relative to the PHP file.
+- Remember $folder_url  is the absolute path to the image folder and $folder_path is relative FROM the PHP file TO the image folder.
 
 ###FYI - In my case, I put the PHP file in the "plusgallery" folder and I am just pass the locations of the image folders for each gallery.
     <div id="plusgallery" data-type="local" data-image-path="/images/gallery/folder-name/"></div>
@@ -50,4 +50,4 @@ Nathan Sharfi
 
 Notes:
 - In both of these cases, I put this PHP file in the root called "/includes/".
-- Remember $folder_url (folder-url) is the absolute path to the image folder and $folder_path (folder-path) is relative to the PHP file.
+- Remember $folder_url (folder-url) is the absolute path to the image folder and $folder_path (folder-path) is relative FROM the PHP file TO the image folder.
