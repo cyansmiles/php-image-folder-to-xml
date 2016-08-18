@@ -65,3 +65,39 @@ My main goal is to just be able to drag and drop folders and images into my gall
 I used to use the Google Picasa to host the images so clients could do this themself. However, now that the rules have changed, that will nto work anymore (easy). I also have used some Facebook plugins, however, the fact that the tokens expire so fast, is really frustrating. So this is the new solution.
 
 Anyways, I will post the solution on another GitHub project when completed.
+
+
+--------------------
+
+#FYI
+
+This is still useful for other projects. So it was not wasted and I knew that when I was creating it. It just is not the best solution for this case.
+
+I still love XML RSS feeds. They are good for SEO and sharing info with other services. So this still has use for other projects.
+
+Here is all the info that is passed with teh current code. It is easy to update if you want to play with more or need other info passed. There is a way to embed comments into photos. You can look into that later if you want. I did mess around with it little but did not post it.
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <title>Folder: http://www.website.com/images/gallery/exteriors/</title>
+  <description>List of images in folder.</description>
+  <channel>
+    <item>
+      <title>image.jpg</title>
+      <description>&lt;img src="http://www.website.com/images/gallery/exteriors/image.jpg" title="image.jpg" style="max-width: 300px;"&gt;</description>
+      <image>
+        <url>http://www.website.com/images/gallery/exteriors/image.jpg</url>
+        <link>http://www.website.com/images/gallery/exteriors/image.jpg</link>
+        <width>600</width>
+        <height>450</height>
+        <type>JPEG</type>
+        <attr>width="600" height="450"</attr>
+        <size>33</size>
+        <units>kB</units>
+        <count>1</count>
+      </image>
+    </item>
+  </channel>
+</rss>
+
