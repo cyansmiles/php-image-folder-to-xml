@@ -32,7 +32,7 @@ This is easy to use, just update or send these two values ($folder_url and $fold
 
 Note: In this case, I put this PHP file in the root called "/includes/".
 
-###FYI - I just realized, I could also put this php file in the gallery folder and just pass the locations of the folder. Anyways, more to come.
+###FYI - I just realized, I could also put this php file in the "plusgallery" folder and just pass the locations of the image folders. Anyways, more to come. Which makes sense for my project, but it just depends what you are trying to achive.
 
 Anyways, I am still rewriting code for PlusGallery to use my RSS feed. I noticed they had already started the code but never completed it. I needed a way to get my images on my server. They just put the JS/Jquery code and nothing else.
 
